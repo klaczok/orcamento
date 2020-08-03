@@ -1,0 +1,13 @@
+ {
+  "AWSEBDockerrunVersion": "1",
+  "Image": {
+    "Name": "rklaczok/orcamento:v2",
+    "Update": "true"
+  },
+  "Ports": [
+    {
+	  "hostPort": "8080",
+      "ContainerPort": "8080"
+    }
+  ]
+}
